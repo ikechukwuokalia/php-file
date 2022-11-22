@@ -1,0 +1,36 @@
+{
+  "name": "ikechukwuokalia/php-file",
+  "description": "File object addon for Catali Web OS projects",
+  "keywords": ["php", "file","manager","cws","ikechukwuokalia"],
+  "homepage": "https://github.com/ikechukwuokalia/php-file",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+    "name": "Ikechukwu Okalia",
+    "email": "dev@ikechukwuokalia.com",
+    "homepage": "https://ikechukwuokalia.com",
+    "role": "developer"
+    }
+  ],
+  "require": {
+    "php" : ">=8.0",
+    "gumlet/php-image-resize" : ">=2.0@stable",
+    "khanamiryan/qrcode-detector-decoder": ">=2.0@stable",
+    "phpoffice/phpspreadsheet" : ">=1.24@stable",
+    "erusev/parsedown": ">=1.7@stable",
+    "endroid/qr-code" : ">=4.0@stable",
+    "tymfrontiers-cdn/php-mysql-database" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-mysql-database-object" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-pagination" : ">=0.1@stable",
+    "ikechukwuokalia/helper.cwapp" : ">=0.1@stable"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+        "IO\\": "src/",
+        "IO\\File\\": "src/"
+    },
+    "files" : []
+  }
+}
